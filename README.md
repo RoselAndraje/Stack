@@ -32,6 +32,8 @@ The program checks if the opening and closing delimiters in a given input are pr
 
 The program also displays a stack execution trace, showing each character being examined, the operation performed, and the current contents of the stack. If a closing delimiter has no matching opening delimiter or the delimiters do not match, the program displays an invalid result with the reason. After checking all the characters, it displays Valid if all delimiters are properly matched and the stack is empty. This helps us understand how a stack works and how it can be used to check delimiters in a sequence of characters.
 
+
+
 # 5. Analyze an Invalid Sequence
 a. Which delimiter caused the mismatch?
  The closing delimiter ] caused the mismatch.
@@ -41,8 +43,6 @@ c. Why should the program reject the sequence?
 The program should reject the sequence because the delimiters are not properly matched. The closing delimiter ] should match [, but the most recent opening delimiter is (. This violates the Last In, First Out (LIFO) rule of a stack.
 
 # 6. Explain the Stack Operations
-6\. Explain the Stack Operations
-
 a. Push – Why is an opening delimiter pushed onto the stack?
 
 The program uses PUSH to add an opening delimiter like `(`, `[` or `{` to the stack. This helps the program remember which opening delimiters still need a matching closing delimiter.
