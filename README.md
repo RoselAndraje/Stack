@@ -3,6 +3,8 @@ Paste your completed manual Stack trace here:
 
 { [ ( ) ] }
 
+<img width="504" height="272" alt="image" src="https://github.com/user-attachments/assets/977126b0-13f5-4d2c-bde2-13186a61bc35" />
+
 # Task 2 – Stack based delimiter checker
 Paste:
 Screenshot of your source code
