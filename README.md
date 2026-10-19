@@ -8,12 +8,16 @@ Paste your completed manual Stack trace here:
 # Task 2 – Stack based delimiter checker
 Paste:
 Screenshot of your source code
+
 <img width="653" height="706" alt="Screenshot 2026-10-18 222049" src="https://github.com/user-attachments/assets/9fa37770-1f23-48cf-ac37-0e4fa3003ae2" />
+<img width="757" height="707" alt="image" src="https://github.com/user-attachments/assets/3ff4dc87-4479-4587-8760-15d67be69e51" />
 
 Screenshot of a valid input and output
+
 <img width="500" height="94" alt="image" src="https://github.com/user-attachments/assets/291c0e38-7eda-4140-818e-7d4e634f025b" />
 
 Screenshot of an invalid input and output
+
 <img width="681" height="64" alt="image" src="https://github.com/user-attachments/assets/03431849-2abd-4df2-af75-fde135cd2a84" />
 
 # Task 3 – Search Trace
