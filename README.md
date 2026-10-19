@@ -1,3 +1,4 @@
+
 # Task 1 – Stack Trace
 Paste your completed manual Stack trace here:
 
@@ -30,3 +31,31 @@ Paste:
 The program checks if the opening and closing delimiters in a given input are properly matched. It uses a stack to keep track of opening delimiters like `(`, `[` and `{`. When the program encounters an opening delimiter, it performs a PUSH operation to add it to the stack. When it finds a closing delimiter, it uses PEEK to check the top of the stack. If the delimiters match, it performs a POP operation to remove the opening delimiter.
 
 The program also displays a stack execution trace, showing each character being examined, the operation performed, and the current contents of the stack. If a closing delimiter has no matching opening delimiter or the delimiters do not match, the program displays an invalid result with the reason. After checking all the characters, it displays Valid if all delimiters are properly matched and the stack is empty. This helps us understand how a stack works and how it can be used to check delimiters in a sequence of characters.
+
+# 5. Analyze an Invalid Sequence
+a. Which delimiter caused the mismatch?
+ The closing delimiter ] caused the mismatch.
+b. Which opening delimiter was at the top of the stack at that point?
+ The opening delimiter ( was at the top of the stack.
+c. Why should the program reject the sequence?
+The program should reject the sequence because the delimiters are not properly matched. The closing delimiter ] should match [, but the most recent opening delimiter is (. This violates the Last In, First Out (LIFO) rule of a stack.
+
+# 6. Explain the Stack Operations
+6\. Explain the Stack Operations
+
+a. Push – Why is an opening delimiter pushed onto the stack?
+
+The program uses PUSH to add an opening delimiter like `(`, `[` or `{` to the stack. This helps the program remember which opening delimiters still need a matching closing delimiter.
+
+b. Peek – Why must the program examine the top element before deciding whether a closing delimiter matches?
+
+The program uses PEEK to check the most recent opening delimiter without removing it. This is important because the closing delimiter must match the top element of the stack.
+
+c. Pop – Why is the matching opening delimiter removed from the stack?
+
+The program uses POP to remove an opening delimiter once its matching closing delimiter is found. This means the pair is complete and no longer needs to be checked.
+
+d. isEmpty – Why must the stack be empty after the entire sequence has been processed for the sequence to be considered valid?
+
+The stack must be empty because it means all opening delimiters have been matched with their closing delimiters. If any opening delimiter remains, it means there is a missing closing delimiter, so the sequence is invalid.
+
