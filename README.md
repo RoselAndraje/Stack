@@ -36,10 +36,15 @@ The program also displays a stack execution trace, showing each character being 
 
 # 5. Analyze an Invalid Sequence
 a. Which delimiter caused the mismatch?
+
  The closing delimiter ] caused the mismatch.
+ 
 b. Which opening delimiter was at the top of the stack at that point?
+
  The opening delimiter ( was at the top of the stack.
+ 
 c. Why should the program reject the sequence?
+
 The program should reject the sequence because the delimiters are not properly matched. The closing delimiter ] should match [, but the most recent opening delimiter is (. This violates the Last In, First Out (LIFO) rule of a stack.
 
 # 6. Explain the Stack Operations
